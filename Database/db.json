@@ -1,0 +1,41 @@
+{
+  "products":[
+    {
+      "Id": 1,
+      "Name": "T-shirt L",
+      "price":50.5,
+      "Rating": 5
+    },
+    {
+      "Id": 2,
+      "Name": "T-shirt XL",
+      "price":100,
+      "Rating": 5
+    },
+    {
+      "Id": 3,
+      "Name": "T-shirt XXL",
+      "price":150,
+      "Rating": 5
+    },
+    {
+      "Id": 4,
+      "Name": "T-shirt 3XL",
+      "price":250,
+      "Rating": 3
+    },
+    {
+      "Id": 5,
+      "Name": "T-shirt Polo",
+      "price":300,
+      "Rating": 8
+    },
+    {
+      "Id": 6,
+      "Name": "T-shirt Lacosta",
+      "price":350,
+      "Rating": 7
+    }
+  ]
+
+}
