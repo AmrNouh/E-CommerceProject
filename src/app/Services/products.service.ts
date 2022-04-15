@@ -17,21 +17,21 @@ export class ProductsService {
     return this.httpClient.get(`this.BaseURL/${id}`);
   }
 
-  getProductByCategoryName(categoryName: string) {
+  getProductsByCategoryName(categoryName: string) {
     return this.httpClient.get(`this.BaseURL?category=${categoryName}`);
   }
 
   createNewProduct(product: {
-    id: number, name: string, price: number, rating: number, images
-    : string[], dicount: number, category
+    id: number, name: string, price: number, rating: number, image
+    : string, dicount: number, category
     : string, color: string, size: string, quantity: number
   }) {
     return this.httpClient.post(this.BaseURL, product);
   }
 
   updateProudct(id: number, product: {
-    id: number, name: string, price: number, rating: number, images
-    : string[], dicount: number, category
+    id: number, name: string, price: number, rating: number, image
+    : string, dicount: number, category
     : string, color: string, size: string, quantity: number
   }) {
     return this.httpClient.put(`this.BaseURL/${id}`, product);
