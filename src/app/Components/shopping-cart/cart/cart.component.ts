@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/models/product';
-import { MessengerService } from 'src/app/Services/messenger.service';
+import { MessengerService } from 'src/app/services/messenger.service';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
