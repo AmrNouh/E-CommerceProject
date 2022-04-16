@@ -5,7 +5,7 @@
       "name": "T-shirt XL",
       "price":50.5,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "imageUrl":"../../../../../assets/ProductImages/1.jpg",
       "discount": 0,
       "category": "Clothes",
       "color": "Red",
