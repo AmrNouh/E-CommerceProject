@@ -1,9 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './Components/shared/header/header.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
 import { NavComponent } from './Components/shared/nav/nav.component';
@@ -34,8 +32,6 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

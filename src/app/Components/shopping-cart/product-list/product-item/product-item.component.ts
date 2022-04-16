@@ -1,6 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
+<<<<<<< HEAD
 import { MessengerService } from 'src/app/Services/messenger.service';
 import { ProductsService } from 'src/app/Services/products.service';
+=======
+import { Product } from 'src/app/models/product'
+import { MessengerService } from 'src/app/services/messenger.service';
+>>>>>>> 6c13ecb6d8090926511db903643f75790066b8a0
 
 @Component({
   selector: 'app-product-item',
@@ -9,11 +14,7 @@ import { ProductsService } from 'src/app/Services/products.service';
 })
 export class ProductItemComponent implements OnInit {
 
-  @Input() productItem: {
-    id: number, name: string, price: number, rating: number, image
-    : string, dicount: number, category
-    : string, color: string, size: string, quantity: number
-  }
+  @Input() productItem: Product
 
   constructor(private msg: MessengerService, private myService: ProductsService) { }
 
