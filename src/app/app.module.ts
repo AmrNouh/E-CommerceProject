@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 
 
 import { ShoppingCartComponent } from './Components/shopping-cart/shopping-cart.component';
@@ -16,6 +16,7 @@ import { NavComponent } from './Components/shared/nav/nav.component';
 import { HeaderComponent } from './Components/shared/header/header.component';
 import { SliderComponent } from './Components/shared/slider/slider.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
+import { ItemDetailsComponent } from './Components/item-details/item-details.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +30,8 @@ import { FooterComponent } from './Components/shared/footer/footer.component';
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
-    SliderComponent
-    
+    SliderComponent,
+    ItemDetailsComponent
   ],
   imports: [
     BrowserModule,

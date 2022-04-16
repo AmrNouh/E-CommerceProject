@@ -1,16 +1,18 @@
 <div class="card mb-4 shadow-sm">
-  <img alt="" class="bd-placeholder-img card-img-top p-2" width="100%" [src]="productItem.image" />
+  <img alt="" class="bd-placeholder-img card-img-top p-2" width="100%" [src]="productItem.imageUrl" />
 
   <div class="card-body">
     <p class="card-text">
       <strong>{{ productItem.price | currency:'INR' }}</strong>
     </p>
     <p class="card-text">{{ productItem.name }}</p>
-    <div class="d-flex justify-content-between align-items-center">
-      <div class="btn-group">
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="btn-group d-flex">
         <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">Add to
           Cart</button>
-        <button type="button" class="btn btn-sm btn-outline-secondary product-btn">View Details</button>
+        <button type="button" routerLink="" class="btn btn-sm btn-outline-secondary product-btn"
+          (click)="showProductDetails(productItem.id)">View
+          Details</button>
       </div>
     </div>
   </div>

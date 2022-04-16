@@ -1,22 +1,80 @@
-<div class="card filters">
-
-  <div class="card-header">
-    <strong>Filters</strong>
-  </div>
-
-  <div class="card-body">
-    <form>
-      <div class="form-group">
-        <label for="from">From</label>
-        <input type="number" id="from" class="form-control">
+<div class="d-flex flex-column align-item-center justify-content-start">
+  <div class="d-flex flex-column">
+    <div class="d-flex flex-column filterbycategory gap-2">
+      <h5 class="mb-3">Shop by Category</h5>
+      <div class="d-flex w-100 justify-content-between align-item-center">
+        <span>Clothes</span>
+        <span>240</span>
       </div>
-
-      <div class="form-group">
-        <label for="to">To</label>
-        <input type="number" id="to" class="form-control">
+      <div class="d-flex justify-content-between align-item-center">
+        <span>Phones</span>
+        <span>20</span>
       </div>
-
-      <button type="button" class="btn btn-primary btn-block btn-sm">Filter by Price</button>
-    </form>
+      <div class="d-flex justify-content-between align-item-center">
+        <span>Accessories</span>
+        <span>60</span>
+      </div>
+      <div class="d-flex justify-content-between align-item-center">
+        <span>Laptops</span>
+        <span>100</span>
+      </div>
+      <div class="d-flex justify-content-between align-item-center">
+        <span>Health & Beauty</span>
+        <span>100</span>
+      </div>
+      <div class="d-flex justify-content-between align-item-center">
+        <span>Tvs</span>
+        <span>100</span>
+      </div>
+    </div>
+    <div class="d-flex mt-4 flex-column filterbycategory">
+      <h5 class="mb-3">Price Range</h5>
+      <div class="d-flex flex-column">
+        <input class="form-range" id="price" type="range" min="0">
+        <div class="d-flex justify-content-between">
+          <label class="form-label" for="price">From</label>
+          <label class="form-label" for="price">To</label>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex mt-4 flex-column filterbycategory">
+      <h5 class="mb-3">Sort by Color</h5>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="Sea">
+        <label class="form-check-label" for="Sea">
+          Sea
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="Yellow">
+        <label class="form-check-label" for="Yellow">
+          Yellow
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="Green">
+        <label class="form-check-label" for="Green">
+          Green
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="Cyan">
+        <label class="form-check-label" for="Cyan">
+          Cyan
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="Red">
+        <label class="form-check-label" for="Red">
+          Red
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="Black">
+        <label class="form-check-label" for="Black">
+          Black
+        </label>
+      </div>
+    </div>
   </div>
 </div>
