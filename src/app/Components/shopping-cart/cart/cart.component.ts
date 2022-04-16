@@ -27,7 +27,7 @@ export class CartComponent implements OnInit {
 
     for (let i in this.cartItems) {
       if (this.cartItems[i].productId === product.id) {
-        this.cartItems[i].qty++
+        this.cartItems[i].quantity++
         productExists = true
         break;
       }
@@ -37,7 +37,7 @@ export class CartComponent implements OnInit {
       this.cartItems.push({
         productId: product.id,
         productName: product.name,
-        qty: 1,
+        quantity: 1,
         price: product.price
       })
     }
@@ -65,7 +65,7 @@ export class CartComponent implements OnInit {
 
     this.cartTotal = 0
     this.cartItems.forEach(item => {
-      this.cartTotal += (item.qty * item.price)
+      this.cartTotal += (item.quantity * item.price)
     })
   }
 
