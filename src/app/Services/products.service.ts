@@ -14,11 +14,11 @@ export class ProductsService {
   }
 
   getProductById(id: number) {
-    return this.httpClient.get(`this.BaseURL/${id}`);
+    return this.httpClient.get(`${this.BaseURL}/${id}`);
   }
 
   getProductsByCategoryName(categoryName: string) {
-    return this.httpClient.get(`this.BaseURL?category=${categoryName}`);
+    return this.httpClient.get(`${this.BaseURL}?category=${categoryName}`);
   }
 
   createNewProduct(product: {
@@ -34,10 +34,10 @@ export class ProductsService {
     : string, dicount: number, category
     : string, color: string, size: string, quantity: number
   }) {
-    return this.httpClient.put(`this.BaseURL/${id}`, product);
+    return this.httpClient.put(`${this.BaseURL}/${id}`, product);
   }
 
   deleteProduct(id: number) {
-    return this.httpClient.delete(`this.BaseURL/${id}`);
+    return this.httpClient.delete(`${this.BaseURL}/${id}`);
   }
 }

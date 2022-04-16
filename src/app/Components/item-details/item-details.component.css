@@ -1,0 +1,13 @@
+.checked {
+  color: orange;
+}
+
+.ratingValue {
+  color: rgb(245, 165, 35);
+  font-weight: bold;
+}
+
+.ratingCount {
+  color: rgb(178, 184, 202);
+  white-space: nowrap;
+}

@@ -14,6 +14,7 @@ import { CartComponent } from './Components/shopping-cart/cart/cart.component';
 import { CartItemComponent } from './Components/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './Components/shopping-cart/product-list/product-item/product-item.component';
 import { NgModule } from '@angular/core';
+import { ItemDetailsComponent } from './Components/item-details/item-details.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgModule } from '@angular/core';
     ProductListComponent,
     CartComponent,
     CartItemComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    ItemDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { MessengerService } from 'src/app/Services/messenger.service';
+import { ProductsService } from 'src/app/Services/products.service';
 
 @Component({
   selector: 'app-product-item',
@@ -14,13 +15,21 @@ export class ProductItemComponent implements OnInit {
     : string, color: string, size: string, quantity: number
   }
 
-  constructor(private msg: MessengerService) { }
+  constructor(private msg: MessengerService, private myService: ProductsService) { }
 
   ngOnInit() {
   }
 
   handleAddToCart() {
     this.msg.sendMsg(this.productItem)
+  }
+
+  showProductDetails(id: number) {
+    this.myService.getProductById(id).subscribe(
+      (product) => {
+        console.log(product);
+      }
+    )
   }
 
 }
