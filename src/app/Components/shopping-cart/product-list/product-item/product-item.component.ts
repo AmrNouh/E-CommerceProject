@@ -1,11 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-<<<<<<< HEAD
 import { MessengerService } from 'src/app/Services/messenger.service';
-import { ProductsService } from 'src/app/Services/products.service';
-=======
 import { Product } from 'src/app/models/product'
-import { MessengerService } from 'src/app/services/messenger.service';
->>>>>>> 6c13ecb6d8090926511db903643f75790066b8a0
+import { ProductsService } from 'src/app/services/products.service';
 
 @Component({
   selector: 'app-product-item',
