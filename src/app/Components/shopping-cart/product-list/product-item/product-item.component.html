@@ -10,8 +10,8 @@
       <div class="btn-group d-flex">
         <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">Add to
           Cart</button>
-        <button type="button" routerLink="" class="btn btn-sm btn-outline-secondary product-btn"
-          (click)="showProductDetails(productItem.id)">View
+        <button type="button" routerLink="/Details/{{productItem.id}}"
+          class="btn btn-sm btn-outline-secondary product-btn">View
           Details</button>
       </div>
     </div>
