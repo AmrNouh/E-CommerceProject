@@ -21,12 +21,4 @@ export class ProductItemComponent implements OnInit {
     this.msg.sendMsg(this.productItem)
   }
 
-  showProductDetails(id: number) {
-    this.myService.getProductById(id).subscribe(
-      (product) => {
-        console.log(product);
-      }
-    )
-  }
-
 }
