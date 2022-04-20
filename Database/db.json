@@ -1,57 +1,57 @@
 {
-  "products":[
+  "products": [
     {
       "id": 1,
       "name": "T-shirt XL",
-      "price":50.5,
+      "price": 50.5,
       "rating": 5,
-      "imageUrl":"../../../../../assets/ProductImages/1.jpg",
+      "imageUrl": "../../../../../assets/ProductImages/1.jpg",
       "discount": 0,
       "category": "Clothes",
       "color": "Red",
       "size": "XL",
       "quantity": 1
     },
-        {
+    {
       "id": 2,
       "name": "IPhone 11 Pro Max",
-      "price":21000,
+      "price": 21000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Phones",
       "color": "Gray",
       "size": "4 inch",
       "quantity": 1
     },
-        {
-      "id": 3,
+    {
       "name": "HeadPhone Apple",
-      "price":150.5,
-      "rating": 3,
-      "image":"src/assets/Productimage/",
-      "discount": 0,
+      "price": 150.5,
+      "imageUrl": "src/assets/Productimage/",
       "category": "Accessories",
+      "discount": 0,
       "color": "Black",
-      "size": "2 inch",
-      "quantity": 1
+      "size": "33inch",
+      "rating": 3,
+      "quantity": 1,
+      "id": 3
     },
-        {
+    {
       "id": 4,
       "name": "IPad",
-      "price":25000,
+      "price": 25000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Phones",
       "color": "White",
       "size": "10 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 5,
       "name": "z-book Laptop Hp",
-      "price":10000,
+      "price": 10000,
       "rating": 5,
       "image": "src/assets/Productimage/1.jpg",
       "discount": 100,
@@ -60,186 +60,305 @@
       "size": "16 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 6,
       "name": "Apple Smart watch",
-      "price":5000,
+      "price": 5000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 10,
       "category": "Electronics",
       "color": "Offwhite",
       "size": "4 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 7,
       "name": "samsung Tv",
-      "price":7000,
+      "price": 7000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Tvs",
       "color": "Black",
       "size": "32 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 8,
       "name": "Laptop Dell",
-      "price":15000,
+      "price": 15000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Laptops",
       "color": "Blcak",
       "size": "15 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 9,
       "name": "T-shirt XL",
-      "price":100,
+      "price": 100,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Clothes",
       "color": "Yellow",
       "size": "XL",
       "quantity": 1
     },
-        {
+    {
       "id": 10,
       "name": "T-shirt XXL",
-      "price":150,
+      "price": 150,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 15,
       "category": "Clothes",
       "color": "Orange",
       "size": "XXL",
       "quantity": 1
     },
-        {
+    {
       "id": 11,
       "name": "Red digital smart watch",
-      "price":1500,
+      "price": 1500,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 15,
       "category": "Electronics",
       "color": "Red",
       "size": "4 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 12,
       "name": "Perfum",
-      "price":200,
+      "price": 200,
       "rating": 3,
-      "image":"https://github.com/AmrNouh/E-CommerceProject/blob/master/src/assets/ProductImages/1.jpg",
+      "image": "https://github.com/AmrNouh/E-CommerceProject/blob/master/src/assets/ProductImages/1.jpg",
       "discount": 0,
       "category": "Beauty",
       "color": "Red",
       "size": "100 ml",
       "quantity": 1
     },
-        {
+    {
       "id": 13,
       "name": "Sony Playstation 5",
-      "price":16444,
+      "price": 16444,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 444,
       "category": "Electronics",
       "color": "Black",
       "size": "12 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 14,
       "name": "Lenovo IdeaPad 3",
       "price": 8000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Laptops",
       "color": "Silver",
       "size": "15.6 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 15,
       "name": "Dell G15 5511 Gaming",
-      "price":23000,
+      "price": 23000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 15,
       "category": "Laptops",
       "color": "White",
       "size": "17 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 16,
       "name": "Samsung Galaxy A52",
-      "price":7000,
+      "price": 7000,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 15,
       "category": "Electronics",
       "color": "Blue",
       "size": "6 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 17,
       "name": "Pure Poison EDP 100ml",
       "price": 150,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 15,
       "category": "Beauty",
       "color": "no color",
       "size": "100 ml",
       "quantity": 1
     },
-        {
+    {
       "id": 18,
       "name": "Si Passione EDP For Women 100ml",
-      "price":50,
+      "price": 50,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 0,
       "category": "Beauty",
       "color": "Red",
       "size": "100 ml",
       "quantity": 1
     },
-        {
+    {
       "id": 19,
       "name": "Realme 9i Dual SIM",
-      "price":4500,
+      "price": 4500,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 15,
       "category": "Electronics",
       "color": "gray",
       "size": "6 inch",
       "quantity": 1
     },
-        {
+    {
       "id": 20,
       "name": "Airpods With Charging Case White",
-      "price":2500,
+      "price": 2500,
       "rating": 5,
-      "image":"src/assets/Productimage/",
+      "image": "src/assets/Productimage/",
       "discount": 100,
       "category": "Clothes",
       "color": "white",
       "size": "",
       "quantity": 1
+    },
+    {
+      "name": "mmmm",
+      "price": 22,
+      "imageUrl": "dd",
+      "rating": 22,
+      "discount": 22,
+      "category": "sss",
+      "color": "sss",
+      "quantity": 2,
+      "size": "dd",
+      "id": 21
+    },
+    {
+      "name": "mmmm",
+      "price": 22,
+      "imageUrl": "dd",
+      "rating": 22,
+      "discount": 22,
+      "category": "sss",
+      "color": "sss",
+      "quantity": 2,
+      "size": "dd",
+      "id": 22
+    },
+    {
+      "name": "",
+      "price": 0,
+      "imageUrl": "",
+      "rating": 0,
+      "discount": 0,
+      "category": "",
+      "color": "",
+      "quantity": 0,
+      "size": "",
+      "id": 23
+    },
+    {
+      "name": "",
+      "price": 0,
+      "imageUrl": "",
+      "rating": 0,
+      "discount": 0,
+      "category": "",
+      "color": "",
+      "quantity": 0,
+      "size": "",
+      "id": 24
+    },
+    {
+      "name": "",
+      "price": 0,
+      "imageUrl": "",
+      "rating": 0,
+      "discount": 0,
+      "category": "",
+      "color": "",
+      "quantity": 0,
+      "size": "",
+      "id": 25
+    },
+    {
+      "name": "",
+      "price": 0,
+      "imageUrl": "",
+      "rating": 0,
+      "discount": 0,
+      "category": "",
+      "color": "",
+      "quantity": 0,
+      "size": "",
+      "id": 26
+    },
+    {
+      "name": "",
+      "price": 0,
+      "imageUrl": "",
+      "rating": 0,
+      "discount": 0,
+      "category": "",
+      "color": "",
+      "quantity": 0,
+      "size": "",
+      "id": 27
+    },
+    {
+      "name": "Tshirt",
+      "price": 22,
+      "imageUrl": "hhsdh",
+      "rating": 66,
+      "discount": 22,
+      "category": "bnxzb",
+      "color": "hjhgsd",
+      "quantity": 2,
+      "size": "ggd",
+      "id": 28
+    },
+    {
+      "name": "Tshirt",
+      "price": 22,
+      "imageUrl": "hhsdh",
+      "rating": 66,
+      "discount": 22,
+      "category": "bnxzb",
+      "color": "hjhgsd",
+      "quantity": 2,
+      "size": "ggd",
+      "id": 29
+    },
+    {
+      "name": "Tshirt",
+      "price": 22,
+      "imageUrl": "hhsdh",
+      "rating": 66,
+      "discount": 22,
+      "category": "bnxzb",
+      "color": "hjhgsd",
+      "quantity": 2,
+      "size": "ggd",
+      "id": 30
     }
   ]
-
 }

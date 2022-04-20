@@ -1,0 +1,12 @@
+<form (ngSubmit)="AddNew(name.value, price.value,imageUrl.value, rating.value, discount.value, category.value, color.value,quantity.value,size.value)" class="form1">
+  <input class="form-control m-2" #name type="text" placeholder="Name">
+  <input class="form-control m-2" #price type="number|text" placeholder="price">
+  <input class="form-control m-2" #imageUrl type="text" placeholder="imageUrl">
+  <input class="form-control m-2" #rating type="number" placeholder="rating">
+  <input class="form-control m-2" #discount type="number|text" placeholder="discount">
+  <input class="form-control m-2" #category type="text" placeholder="category">
+  <input class="form-control m-2" #color type="text" placeholder="color">
+  <input class="form-control m-2" #quantity type=" number|text" placeholder="quantity">
+  <input class="form-control m-2" #size type="text" placeholder="size">
+<input type="submit" value="Add Product" class="btn">
+</form>
