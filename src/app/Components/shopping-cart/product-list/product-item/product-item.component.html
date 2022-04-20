@@ -13,6 +13,7 @@
         <button type="button" routerLink="/Details/{{productItem.id}}"
           class="btn btn-sm btn-outline-secondary product-btn">View
           Details</button>
+         <button class="btn btn-danger"(click)="DeleteProduct(productItem.id)" >Delete</button>
       </div>
     </div>
   </div>
