@@ -5,6 +5,7 @@ import { AddProductComponent } from './Components/shopping-cart/add-product/add-
 import { ShoppingCartComponent } from './Components/shopping-cart/shopping-cart.component';
 import { UpdateProductComponent } from './Components/shopping-cart/update-product/update-product.component';
 
+
 const routes: Routes = [
   { path: "", redirectTo: "Home", pathMatch: "full" },
   { path: "Home", component: ShoppingCartComponent },
@@ -15,7 +16,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{onSameUrlNavigation: 'reload'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
