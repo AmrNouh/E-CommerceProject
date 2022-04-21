@@ -12,6 +12,9 @@ import { CartComponent } from './Components/shopping-cart/cart/cart.component';
 import { CartItemComponent } from './Components/shopping-cart/cart/cart-item/cart-item.component';
 import { ProductItemComponent } from './Components/shopping-cart/product-list/product-item/product-item.component';
 import { NgModule } from '@angular/core';
+import { AddProductComponent } from './Components/shopping-cart/add-product/add-product.component';
+import { UpdateProductComponent } from './Components/shopping-cart/update-product/update-product.component';
+import { FormsModule } from '@angular/forms';
 import { NavComponent } from './Components/shared/nav/nav.component';
 import { HeaderComponent } from './Components/shared/header/header.component';
 import { SliderComponent } from './Components/shared/slider/slider.component';
@@ -21,15 +24,17 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
 @NgModule({
   declarations: [
     AppComponent,
-   HeaderComponent,
-   FooterComponent,
-   NavComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
     ShoppingCartComponent,
     FiltersComponent,
     ProductListComponent,
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
+    AddProductComponent,
+    UpdateProductComponent,
     SliderComponent,
     ItemDetailsComponent
   ],
@@ -37,9 +42,7 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    
-    
-    
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

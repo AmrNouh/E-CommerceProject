@@ -21,4 +21,16 @@ export class ProductItemComponent implements OnInit {
     this.msg.sendMsg(this.productItem)
   }
 
-}
+  DeleteProduct(id:number)
+  {
+     console.log(id);
+     let DeleteProduct=confirm("are you sure you want to delete this product ?")
+     if(confirm)
+     {
+       this.myService.deleteProduct(id).subscribe();
+     }
+  }
+    
+  }
+
+

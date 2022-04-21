@@ -21,26 +21,18 @@ export class ProductsService {
   }
 
   getProductById(id: number) {
-    return this.http.get(`${BaseURL}/${id}`);
+    return this.http.get(`${BaseURL}?id=${id}`);
   }
 
   getProductsByCategoryName(categoryName: string) {
     return this.http.get(`this.BaseURL?category=${categoryName}`);
   }
 
-  createNewProduct(product: {
-    id: number, name: string, price: number, rating: number, image
-    : string, dicount: number, category
-    : string, color: string, size: string, quantity: number
-  }) {
+  createNewProduct(product: Product) {
     return this.http.post(BaseURL, product);
   }
 
-  updateProudct(id: number, product: {
-    id: number, name: string, price: number, rating: number, image
-    : string, dicount: number, category
-    : string, color: string, size: string, quantity: number
-  }) {
+  updateProduct(id: number, product: Product) {
     return this.http.put(`${BaseURL}/${id}`, product);
   }
 

@@ -6,7 +6,7 @@ export class Product {
   size: string;
   color: string;
   category: string;
-  discount: string;
+  discount: number;
   price: number;
   rating:number;
   

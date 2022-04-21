@@ -1,0 +1,45 @@
+<!-- <form> -->
+<div class="p-4 Update d-flex justify-content-around align-items-center flex-wrap mt-5 mb-5 bg-light">
+  <div class="col-5 d-flex flex-column align-self-start">
+    <div class="form-group">
+      <label for="" class="form-label">Product Name</label>
+      <input [(ngModel)]="product.name" class="form-control m-2" type="text" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Product Price</label>
+      <input [(ngModel)]="product.price" class="form-control m-2" type="number|text" placeholder="price">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Discount</label>
+      <input [(ngModel)]="product.discount" class="form-control m-2" type="number|text" placeholder="discount">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Category</label>
+      <input [(ngModel)]="product.category" class="form-control m-2" type="text" placeholder="category">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Product Color</label>
+      <input [(ngModel)]="product.color" class="form-control m-2" type="text" placeholder="color">
+    </div>
+  </div>
+  <div class="col-5 d-flex flex-column align-self-start">
+    <div class="form-group">
+      <label for="" class="form-label">Quantity</label>
+      <input [(ngModel)]="product.quantity" class="form-control m-2" type=" number|text" placeholder="quantity">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Size</label>
+      <input [(ngModel)]="product.size" class="form-control m-2" type="text" placeholder="size">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Rating</label>
+      <input [(ngModel)]="product.rating" class="form-control m-2" type="number" placeholder="rating">
+    </div>
+    <div class="form-group">
+      <label for="" class="form-label">Product Image</label>
+      <input [(ngModel)]="product.imageUrl" class="form-control m-2" type="text" placeholder="imageUrl">
+    </div>
+  </div>
+  <input (click)="OnClick()" routerLink="/Home" type="submit" value="Update Product" class="btn btn-primary mt-5 mb-5">
+  <!-- </form> -->
+</div>
