@@ -24,18 +24,23 @@ export class ProductItemComponent implements OnInit {
   handleAddToCart() {
     this.msg.sendMsg(this.productItem)
   }
-
+  redirectTo(uri:string){
+    this.router.navigateByUrl('/', {skipLocationChange: true}).then(()=>
+    this.router.navigate([uri]));
+    
+ }
+ 
   DeleteProduct(id:number)
   {
-    console.log(id);
+   
      let DeleteProduct=confirm("are you sure you want to delete this product ?")
      if(DeleteProduct)
      {
        this.myService.deleteProduct(id).subscribe();
-
+       this.redirectTo('home');
      }
-     this.router.navigate(["Home"]);
 
   }
+
      
 }
