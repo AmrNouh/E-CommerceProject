@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './Components/shared/header/header.component';
-import { FooterComponent } from './Components/shared/footer/footer.component';
-import { NavComponent } from './Components/shared/nav/nav.component';
+
+
+
 import { ShoppingCartComponent } from './Components/shopping-cart/shopping-cart.component';
 import { FiltersComponent } from './Components/shopping-cart/filters/filters.component';
 import { ProductListComponent } from './Components/shopping-cart/product-list/product-list.component';
@@ -15,27 +15,43 @@ import { NgModule } from '@angular/core';
 import { AddProductComponent } from './Components/shopping-cart/add-product/add-product.component';
 import { UpdateProductComponent } from './Components/shopping-cart/update-product/update-product.component';
 import { FormsModule } from '@angular/forms';
+import { NavComponent } from './Components/shared/nav/nav.component';
+import { HeaderComponent } from './Components/shared/header/header.component';
+import { SliderComponent } from './Components/shared/slider/slider.component';
+import { FooterComponent } from './Components/shared/footer/footer.component';
+import { ItemDetailsComponent } from './Components/item-details/item-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    NavComponent,
+   HeaderComponent,
+   FooterComponent,
+   NavComponent,
     ShoppingCartComponent,
     FiltersComponent,
     ProductListComponent,
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
+<<<<<<< HEAD
     AddProductComponent,
     UpdateProductComponent
+=======
+    SliderComponent,
+    ItemDetailsComponent
+>>>>>>> 43099db21164321083ba55fa9983f36380907e5c
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+<<<<<<< HEAD
     FormsModule
+=======
+    
+    
+    
+>>>>>>> 43099db21164321083ba55fa9983f36380907e5c
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,11 +6,14 @@
       <strong>{{ productItem.price | currency:'INR' }}</strong>
     </p>
     <p class="card-text">{{ productItem.name }}</p>
-    <div class="d-flex justify-content-between align-items-center">
-      <div class="btn-group">
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="btn-group d-flex">
         <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">Add to
           Cart</button>
-        <button type="button" class="btn btn-sm btn-outline-secondary product-btn">View Details</button>
+        <button type="button" routerLink="/Details/{{productItem.id}}"
+          class="btn btn-sm btn-outline-secondary product-btn">View
+          Details</button>
+         <button class="btn btn-danger"(click)="DeleteProduct(productItem.id)" >Delete</button>
       </div>
     </div>
   </div>

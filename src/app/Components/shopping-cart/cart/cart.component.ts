@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/models/product';
-import { MessengerService } from 'src/app/services/messenger.service'
-
+import { MessengerService } from 'src/app/Services/messenger.service';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -16,9 +15,9 @@ export class CartComponent implements OnInit {
   constructor(private msg: MessengerService) { }
 
   ngOnInit() {
-     this.msg.getMsg().subscribe((product: Product) => {
-     this.addProductToCart(product)
-     })
+    this.msg.getMsg().subscribe((product: Product) => {
+      this.addProductToCart(product)
+    })
   }
 
   addProductToCart(product: Product) {
@@ -41,27 +40,27 @@ export class CartComponent implements OnInit {
         price: product.price
       })
     }
-  // if (this.cartItems.length === 0) {
-  //   this.cartItems.push({
-  //     productId: product.id,
-  //     productName: product.name,
-  //     qty: 1,
-  //     price: product.price
-  //   })
-  // } else {
-  //   for (let i in this.cartItems) {
-  //     if (this.cartItems[i].productId === product.id) {
-  //       this.cartItems[i].qty++
-  //     } else {
-  //       this.cartItems.push({
-  //         productId: product.id,
-  //         productName: product.name,
-  //         qty: 1,
-  //         price: product.price
-  //       })
-  //     }
-  //   }
-  // }
+    // if (this.cartItems.length === 0) {
+    //   this.cartItems.push({
+    //     productId: product.id,
+    //     productName: product.name,
+    //     qty: 1,
+    //     price: product.price
+    //   })
+    // } else {
+    //   for (let i in this.cartItems) {
+    //     if (this.cartItems[i].productId === product.id) {
+    //       this.cartItems[i].qty++
+    //     } else {
+    //       this.cartItems.push({
+    //         productId: product.id,
+    //         productName: product.name,
+    //         qty: 1,
+    //         price: product.price
+    //       })
+    //     }
+    //   }
+    // }
 
     this.cartTotal = 0
     this.cartItems.forEach(item => {

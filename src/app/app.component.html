@@ -1,19 +1,10 @@
-<app-nav></app-nav>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <app-shopping-cart></app-shopping-cart>
-    </div>
-  </div>
-
- 
-</div>
-<app-add-product></app-add-product> <app-update-product></app-update-product>
-
-<app-footer></app-footer>
-
-
-
-
+<header class="col-lg-12">
+  <app-nav></app-nav>
+  <router-outlet></router-outlet>
+</header>
+<main>
+  <app-add-product></app-add-product> <app-update-product></app-update-product>
+</main>
+<footer>
+  <app-footer></app-footer>
+</footer>

@@ -5,7 +5,11 @@
       "name": "T-shirt XL",
       "price": 50.5,
       "rating": 5,
+<<<<<<< HEAD
       "imageUrl": "../../../../../assets/ProductImages/1.jpg",
+=======
+      "image": "src/assets/Productimage/1.jpg",
+>>>>>>> 43099db21164321083ba55fa9983f36380907e5c
       "discount": 0,
       "category": "Clothes",
       "color": "Red",
@@ -25,9 +29,18 @@
       "quantity": 1
     },
     {
+<<<<<<< HEAD
       "name": "HeadPhone Apple",
       "price": 150.5,
       "imageUrl": "src/assets/Productimage/",
+=======
+      "id": 3,
+      "name": "HeadPhone Apple",
+      "price": 150.5,
+      "rating": 3,
+      "image": "src/assets/Productimage/",
+      "discount": 0,
+>>>>>>> 43099db21164321083ba55fa9983f36380907e5c
       "category": "Accessories",
       "discount": 0,
       "color": "Black",
@@ -215,150 +228,6 @@
       "color": "Red",
       "size": "100 ml",
       "quantity": 1
-    },
-    {
-      "id": 19,
-      "name": "Realme 9i Dual SIM",
-      "price": 4500,
-      "rating": 5,
-      "image": "src/assets/Productimage/",
-      "discount": 15,
-      "category": "Electronics",
-      "color": "gray",
-      "size": "6 inch",
-      "quantity": 1
-    },
-    {
-      "id": 20,
-      "name": "Airpods With Charging Case White",
-      "price": 2500,
-      "rating": 5,
-      "image": "src/assets/Productimage/",
-      "discount": 100,
-      "category": "Clothes",
-      "color": "white",
-      "size": "",
-      "quantity": 1
-    },
-    {
-      "name": "mmmm",
-      "price": 22,
-      "imageUrl": "dd",
-      "rating": 22,
-      "discount": 22,
-      "category": "sss",
-      "color": "sss",
-      "quantity": 2,
-      "size": "dd",
-      "id": 21
-    },
-    {
-      "name": "mmmm",
-      "price": 22,
-      "imageUrl": "dd",
-      "rating": 22,
-      "discount": 22,
-      "category": "sss",
-      "color": "sss",
-      "quantity": 2,
-      "size": "dd",
-      "id": 22
-    },
-    {
-      "name": "",
-      "price": 0,
-      "imageUrl": "",
-      "rating": 0,
-      "discount": 0,
-      "category": "",
-      "color": "",
-      "quantity": 0,
-      "size": "",
-      "id": 23
-    },
-    {
-      "name": "",
-      "price": 0,
-      "imageUrl": "",
-      "rating": 0,
-      "discount": 0,
-      "category": "",
-      "color": "",
-      "quantity": 0,
-      "size": "",
-      "id": 24
-    },
-    {
-      "name": "",
-      "price": 0,
-      "imageUrl": "",
-      "rating": 0,
-      "discount": 0,
-      "category": "",
-      "color": "",
-      "quantity": 0,
-      "size": "",
-      "id": 25
-    },
-    {
-      "name": "",
-      "price": 0,
-      "imageUrl": "",
-      "rating": 0,
-      "discount": 0,
-      "category": "",
-      "color": "",
-      "quantity": 0,
-      "size": "",
-      "id": 26
-    },
-    {
-      "name": "",
-      "price": 0,
-      "imageUrl": "",
-      "rating": 0,
-      "discount": 0,
-      "category": "",
-      "color": "",
-      "quantity": 0,
-      "size": "",
-      "id": 27
-    },
-    {
-      "name": "Tshirt",
-      "price": 22,
-      "imageUrl": "hhsdh",
-      "rating": 66,
-      "discount": 22,
-      "category": "bnxzb",
-      "color": "hjhgsd",
-      "quantity": 2,
-      "size": "ggd",
-      "id": 28
-    },
-    {
-      "name": "Tshirt",
-      "price": 22,
-      "imageUrl": "hhsdh",
-      "rating": 66,
-      "discount": 22,
-      "category": "bnxzb",
-      "color": "hjhgsd",
-      "quantity": 2,
-      "size": "ggd",
-      "id": 29
-    },
-    {
-      "name": "Tshirt",
-      "price": 22,
-      "imageUrl": "hhsdh",
-      "rating": 66,
-      "discount": 22,
-      "category": "bnxzb",
-      "color": "hjhgsd",
-      "quantity": 2,
-      "size": "ggd",
-      "id": 30
     }
   ]
 }

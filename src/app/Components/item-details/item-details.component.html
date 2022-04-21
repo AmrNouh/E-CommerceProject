@@ -1,0 +1,53 @@
+<div class="row mt-3 mb-3">
+  <div class="col-5 d-flex flex-column justify-content-center align-items-center">
+    <img class="img-fluid w-75" src="../../../assets/ProductImages/1.jpg" alt="Product Image">
+  </div>
+  <div class="col-6">
+    <div class="d-flex flex-column gap-2">
+      <h1>{{product.name}}</h1>
+      <div class="d-flex customer-review gap-2">
+        <div class="contaier rating-stars">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="d-flex gap-2">
+          <span class="ratingValue">{{product.rating}}</span>
+          <span class="ratingCount d-flex">customer reviews</span>
+        </div>
+      </div>
+      <h4>{{product.price | currency : 'USD' }} </h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, doloribus repudiandae. Atque aliquam saepe
+        veritatis mollitia delectus id suscipit repudiandae molestias eligendi magnam odio quaerat possimus, temporibus
+        rerum voluptatem nisi!
+      </p>
+      <div class="d-flex gap-3">
+        <span>Product Color:</span>
+        <span>{{product.color}}</span>
+      </div>
+      <div class="d-flex gap-3">
+        <span>Category:</span>
+        <span>{{product.category}}</span>
+      </div>
+      <div>
+        <label for="quantity">Quantity</label>
+        <input class="form-control" type="number" name="quantity" id="quantity" value="{{product.quantity}}">
+      </div>
+      <div class="d-flex gap-2">
+        <button class="form-control btn btn-primary" type="button">
+          <i class="fa-solid fa-cart-arrow-down"></i>
+          Add to cart
+        </button>
+        <span class="d-flex flex-column align-items-center justify-content-center">
+          <i class="fa-solid fa-heart"></i>
+        </span>
+        <span class="d-flex flex-column align-items-center justify-content-center">
+          <i class="fa-solid fa-share-nodes"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

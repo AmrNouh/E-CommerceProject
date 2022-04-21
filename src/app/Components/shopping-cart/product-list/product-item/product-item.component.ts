@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Product } from 'src/app/models/product'
-import { MessengerService } from 'src/app/services/messenger.service';
+import { MessengerService } from 'src/app/Services/messenger.service';
+import { ProductsService } from 'src/app/services/products.service';
 
 @Component({
   selector: 'app-product-item',
@@ -11,7 +12,7 @@ export class ProductItemComponent implements OnInit {
 
   @Input() productItem: Product
 
-  constructor(private msg: MessengerService) { }
+  constructor(private msg: MessengerService, private myService: ProductsService) { }
 
   ngOnInit() {
   }
@@ -20,4 +21,16 @@ export class ProductItemComponent implements OnInit {
     this.msg.sendMsg(this.productItem)
   }
 
-}
+  DeleteProduct(id:number)
+  {
+     console.log(id);
+     let DeleteProduct=confirm("are you sure you want to delete this product ?")
+     if(confirm)
+     {
+       this.myService.deleteProduct(id).subscribe();
+     }
+  }
+    
+  }
+
+
