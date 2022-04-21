@@ -1,10 +1,3 @@
-//changes
-//changes
-//changes
-//changes
-//changes
-//changes
-//changes
 export class Product {
   id: number;
   name: string;
