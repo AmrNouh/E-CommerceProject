@@ -3,13 +3,9 @@
     {
       "id": 1,
       "name": "T-shirt XL",
-      "price": 50.5,
+      "price": "100",
       "rating": 5,
-<<<<<<< HEAD
-      "imageUrl": "../../../../../assets/ProductImages/1.jpg",
-=======
       "image": "src/assets/Productimage/1.jpg",
->>>>>>> 43099db21164321083ba55fa9983f36380907e5c
       "discount": 0,
       "category": "Clothes",
       "color": "Red",
@@ -19,7 +15,7 @@
     {
       "id": 2,
       "name": "IPhone 11 Pro Max",
-      "price": 21000,
+      "price": "20000",
       "rating": 5,
       "image": "src/assets/Productimage/",
       "discount": 0,
@@ -29,25 +25,16 @@
       "quantity": 1
     },
     {
-<<<<<<< HEAD
-      "name": "HeadPhone Apple",
-      "price": 150.5,
-      "imageUrl": "src/assets/Productimage/",
-=======
       "id": 3,
       "name": "HeadPhone Apple",
       "price": 150.5,
       "rating": 3,
       "image": "src/assets/Productimage/",
       "discount": 0,
->>>>>>> 43099db21164321083ba55fa9983f36380907e5c
       "category": "Accessories",
-      "discount": 0,
       "color": "Black",
-      "size": "33inch",
-      "rating": 3,
-      "quantity": 1,
-      "id": 3
+      "size": "2 inch",
+      "quantity": 1
     },
     {
       "id": 4,
@@ -214,18 +201,6 @@
       "discount": 15,
       "category": "Beauty",
       "color": "no color",
-      "size": "100 ml",
-      "quantity": 1
-    },
-    {
-      "id": 18,
-      "name": "Si Passione EDP For Women 100ml",
-      "price": 50,
-      "rating": 5,
-      "image": "src/assets/Productimage/",
-      "discount": 0,
-      "category": "Beauty",
-      "color": "Red",
       "size": "100 ml",
       "quantity": 1
     }

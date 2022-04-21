@@ -24,34 +24,25 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
 @NgModule({
   declarations: [
     AppComponent,
-   HeaderComponent,
-   FooterComponent,
-   NavComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
     ShoppingCartComponent,
     FiltersComponent,
     ProductListComponent,
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
-<<<<<<< HEAD
     AddProductComponent,
-    UpdateProductComponent
-=======
+    UpdateProductComponent,
     SliderComponent,
     ItemDetailsComponent
->>>>>>> 43099db21164321083ba55fa9983f36380907e5c
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-<<<<<<< HEAD
     FormsModule
-=======
-    
-    
-    
->>>>>>> 43099db21164321083ba55fa9983f36380907e5c
   ],
   providers: [],
   bootstrap: [AppComponent]
