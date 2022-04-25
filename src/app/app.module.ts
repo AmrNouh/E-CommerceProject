@@ -2,9 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-
-
 import { ShoppingCartComponent } from './Components/shopping-cart/shopping-cart.component';
 import { FiltersComponent } from './Components/shopping-cart/filters/filters.component';
 import { ProductListComponent } from './Components/shopping-cart/product-list/product-list.component';
@@ -33,25 +30,16 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
-<<<<<<< HEAD
     AddProductComponent,
-    UpdateProductComponent
-=======
+    UpdateProductComponent,
     SliderComponent,
     ItemDetailsComponent
->>>>>>> 43099db21164321083ba55fa9983f36380907e5c
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-<<<<<<< HEAD
     FormsModule
-=======
-    
-    
-    
->>>>>>> 43099db21164321083ba55fa9983f36380907e5c
   ],
   providers: [],
   bootstrap: [AppComponent]
