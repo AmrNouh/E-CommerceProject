@@ -11,11 +11,7 @@ import { ProductsService } from 'src/app/services/products.service';
 export class ItemDetailsComponent implements OnInit {
 
   productId: number;
-
-
-  public product: Product;
-
-
+  product: Product;
   constructor(private activeRoute: ActivatedRoute, private myService: ProductsService) {
     this.productId = this.activeRoute.snapshot.params["id"];
   }
@@ -23,8 +19,8 @@ export class ItemDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.myService.getProductById(this.productId).subscribe(
       (data) => {
-        this.product = data;
-        console.log(data);
+        this.product = data[0];
+        console.log(this.product)
       }
     )
   }

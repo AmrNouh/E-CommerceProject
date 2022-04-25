@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "T-shirt XL",
-      "price": "100",
+      "price": 50.5,
       "rating": 5,
       "imageUrl": "../../../assets/ProductImages/T-shirt XL.jpg",
       "discount": 0,
