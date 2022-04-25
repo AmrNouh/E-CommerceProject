@@ -21,9 +21,9 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
 @NgModule({
   declarations: [
     AppComponent,
-   HeaderComponent,
-   FooterComponent,
-   NavComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
     ShoppingCartComponent,
     FiltersComponent,
     ProductListComponent,

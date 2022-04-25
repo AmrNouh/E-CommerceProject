@@ -22,7 +22,6 @@ export class ProductsService {
 
   getProductById(id: number) {
     return this.http.get(`${BaseURL}?id=${id}`);
-    return this.http.get(`${BaseURL}/${id}`);
   }
 
   getProductsByCategoryName(categoryName: string) {
@@ -30,11 +29,11 @@ export class ProductsService {
   }
 
   createNewProduct(product: Product) {
-    return this.http.post(BaseURL,product);
+    return this.http.post(BaseURL, product);
   }
 
-  updateProudct(id: number, product: Product) {
-    return this.http.put(`${BaseURL}/${id}`,product);
+  updateProduct(id: number, product: Product) {
+    return this.http.put(`${BaseURL}/${id}`, product);
   }
 
   deleteProduct(id: number) {
