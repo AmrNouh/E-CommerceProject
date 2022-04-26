@@ -20,6 +20,7 @@ import { HeaderComponent } from './Components/shared/header/header.component';
 import { SliderComponent } from './Components/shared/slider/slider.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
 import { ItemDetailsComponent } from './Components/item-details/item-details.component';
+import { AboutComponent } from './Components/shared/about/about.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
     AddProductComponent,
     UpdateProductComponent,
     SliderComponent,
-    ItemDetailsComponent
+    ItemDetailsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
