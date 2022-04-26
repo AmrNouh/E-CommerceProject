@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
 import { Product } from 'src/app/models/product';
 import { ProductsService } from 'src/app/services/products.service';
 //import { ProductsService } from 'src/app/services/products.service';
@@ -12,11 +13,19 @@ export class UpdateProductComponent implements OnInit {
 
   productId: number;
   product: Product;
-  constructor(private myService: ProductsService, private route: ActivatedRoute) {
+  selectedFile:File = null;
+  imgPath = '../../../assets/ProductImages/';
+  constructor(private myService: ProductsService, private route: ActivatedRoute ,private http:HttpClient) {
     this.productId = this.route.snapshot.params["id"];
   }
 
-
+  onFileChanged(event) {
+    
+    const file = event.target.files[0].name ;
+    this.product.imageUrl = this.imgPath + file;
+    console.log(file);
+  }
+  
   ngOnInit(): void {
     this.myService.getProductById(this.productId).subscribe(
       (data) => {
@@ -30,7 +39,7 @@ export class UpdateProductComponent implements OnInit {
       () => console.log("Updated successfully"),
       (error) => console.log(error)
     )
-
+      console.log(this.imgPath)
   }
 
 

@@ -1,45 +1,46 @@
-<form
-  (ngSubmit)="AddNew(name.value, price.value,imageUrl.value, rating.value, discount.value, category.value, color.value,quantity.value,size.value)"
-  class="form p-4 d-flex justify-content-around align-items-center flex-wrap mt-5 mb-5 bg-light">
-  <div class="col-5 d-flex flex-column align-self-start">
-    <div class="form-group">
-      <label for="" class="form-label">Product Name</label>
-      <input class="form-control m-2" #name type="text" placeholder="Name">
+<form (ngSubmit)="AddNew(name.value, price.value,imageUrl.value, rating.value, discount.value, category.value, color.value,quantity.value,size.value)" class="form p-4 d-flex justify-content-around align-items-center flex-wrap mt-5 mb-5 bg-light">
+    <div class="container d-flex ">
+        <div class="container">
+            <div class="form-group">
+                <label for="" class="form-label">Product Name</label>
+                <input class="form-control mb-2 w-50" #name type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Product Price</label>
+                <input class="form-control mb-2 w-50" #price type="number|text" placeholder="price">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Discount</label>
+                <input class="form-control mb-2 w-50" #discount type="number|text" placeholder="discount">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Category</label>
+                <input class="form-control mb-2 w-50" #category type="text" placeholder="category">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Product Color</label>
+                <input class="form-control mb-2 w-50" #color type="text" placeholder="color">
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label for="" class="form-label">Quantity</label>
+                <input class="form-control mb-2 w-50" #quantity type=" number|text" placeholder="quantity">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Size</label>
+                <input class="form-control mb-2 w-50" #size type="text" placeholder="size">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Ratting</label>
+                <input class="form-control mb-2 w-50" #rating type="number" placeholder="rating">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-label">Image</label>
+                <input class="form-control mb-2 w-50" #imageUrl type="file" (change)="onFileChanged($event)" formControlName="image" placeholder="imageUrl">
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-      <label for="" class="form-label">Product Price</label>
-      <input class="form-control m-2" #price type="number|text" placeholder="price">
-    </div>
-    <div class="form-group">
-      <label for="" class="form-label">Discount</label>
-      <input class="form-control m-2" #discount type="number|text" placeholder="discount">
-    </div>
-    <div class="form-group">
-      <label for="" class="form-label">Category</label>
-      <input class="form-control m-2" #category type="text" placeholder="category">
-    </div>
-    <div class="form-group">
-      <label for="" class="form-label">Product Color</label>
-      <input class="form-control m-2" #color type="text" placeholder="color">
-    </div>
-  </div>
-  <div class="col-5 d-flex flex-column align-self-start">
-    <div class="form-group">
-      <label for="" class="form-label">Quantity</label>
-      <input class="form-control m-2" #quantity type=" number|text" placeholder="quantity">
-    </div>
-    <div class="form-group">
-      <label for="" class="form-label">Size</label>
-      <input class="form-control m-2" #size type="text" placeholder="size">
-    </div>
-    <div class="form-group">
-      <label for="" class="form-label">Ratting</label>
-      <input class="form-control m-2" #rating type="number" placeholder="rating">
-    </div>
-    <div class="form-group">
-      <label for="" class="form-label">Image</label>
-      <input class="form-control m-2" #imageUrl type="text" placeholder="imageUrl">
-    </div>
-  </div>
-  <input type="submit" value="Add Product" routerLink="/Home" class="btn btn-primary mt-5">
+
+    <input type="submit" value="Add Product" routerLink="/Home" class="btn btn-primary mt-5">
 </form>
