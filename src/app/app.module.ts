@@ -2,9 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-
-
 import { ShoppingCartComponent } from './Components/shopping-cart/shopping-cart.component';
 import { FiltersComponent } from './Components/shopping-cart/filters/filters.component';
 import { ProductListComponent } from './Components/shopping-cart/product-list/product-list.component';
@@ -20,6 +17,7 @@ import { HeaderComponent } from './Components/shared/header/header.component';
 import { SliderComponent } from './Components/shared/slider/slider.component';
 import { FooterComponent } from './Components/shared/footer/footer.component';
 import { ItemDetailsComponent } from './Components/item-details/item-details.component';
+import { AboutComponent } from './Components/shared/about/about.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +34,8 @@ import { ItemDetailsComponent } from './Components/item-details/item-details.com
     AddProductComponent,
     UpdateProductComponent,
     SliderComponent,
-    ItemDetailsComponent
+    ItemDetailsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
