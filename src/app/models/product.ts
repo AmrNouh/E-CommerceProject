@@ -8,20 +8,20 @@ export class Product {
   category: string;
   discount: number;
   price: number;
-  rating:number;
-  
+  rating: number;
 
-  // constructor(id, name, color , price = 0, imageUrl ,rating,quantity,size,category,discount, ) {
+
+  // constructor(id, name, color, price = 0, imageUrl, rating, quantity, size, category, discount,) {
   //   this.id = id
   //   this.name = name
   //   this.quantity = quantity
   //   this.price = price
-  //   this.rating  = rating
+  //   this.rating = rating
   //   this.imageUrl = imageUrl
   //   this.color = color
   //   this.category = category
   //   this.discount = discount
-  //   this.size  = size
+  //   this.size = size
 
   // }
 }

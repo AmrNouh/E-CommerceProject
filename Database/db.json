@@ -215,6 +215,30 @@
       "color": "Red",
       "size": "100 ml",
       "quantity": 1
+    },
+    {
+      "id": 19,
+      "name": "Realme 9i Dual SIM",
+      "price": 4500,
+      "rating": 5,
+      "imageUrl": "../../../assets/ProductImages/Realme 9i Dual SIM.webp",
+      "discount": 15,
+      "category": "Electronics",
+      "color": "gray",
+      "size": "6 inch",
+      "quantity": 1
+    },
+    {
+      "id": 20,
+      "name": "Airpods With Charging Case White",
+      "price": 2500,
+      "rating": 5,
+      "imageUrl": "../../../assets/ProductImages/Airpods With Charging Case White.webp",
+      "discount": 100,
+      "category": "Clothes",
+      "color": "white",
+      "size": "",
+      "quantity": 1
     }
   ]
 }

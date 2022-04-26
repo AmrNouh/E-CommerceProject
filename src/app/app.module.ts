@@ -2,9 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-
-
 import { ShoppingCartComponent } from './Components/shopping-cart/shopping-cart.component';
 import { FiltersComponent } from './Components/shopping-cart/filters/filters.component';
 import { ProductListComponent } from './Components/shopping-cart/product-list/product-list.component';
