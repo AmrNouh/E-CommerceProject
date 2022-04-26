@@ -1,17 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import { ProductsService } from 'src/app/services/products.service';
-import { HttpClient } from '@angular/common/http';
+
 @Component({
   selector: 'app-add-product',
   templateUrl: './add-product.component.html',
   styleUrls: ['./add-product.component.css']
 })
 export class AddProductComponent implements OnInit {
+  
   selectedFile:File = null;
   imgPath = '../../../assets/ProductImages/';
   product: Product;
-    constructor(private myService:ProductsService , private http:HttpClient) { }
+    constructor(private myService:ProductsService ) { }
     
     onFileChanged(event) {
     
@@ -20,11 +21,10 @@ export class AddProductComponent implements OnInit {
       console.log(file);
     }
     
-
-    ngOnInit(): void {
-    }
-    AddNew(name:string,price: string| number,imageUrl:string,rating:string| number,discount: string|number,category:string,color:string,quantity:string|number,size:string){
-      let product=new Product();
+  ngOnInit(): void {
+  }
+  AddNew(name:string,price: string| number,imageUrl:string,rating:string| number,discount: string|number,category:string,color:string,quantity:string|number,size:string){
+    let product=new Product();
     product.name = name;
     product.price =+ price;
     product.imageUrl = imageUrl;
